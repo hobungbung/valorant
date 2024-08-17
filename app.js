@@ -17,3 +17,5 @@ dayOfWeek.push("sun");
 console.log(dayOfWeek[4]);
 
 let abc = "endless";
+
+parseInt("2");

@@ -5,35 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style sova.css">
     <title>sova</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        a {
+            color: black;
+            text-decoration: none;
+        }
+        h1 {
+            font-size: 60px;
+            text-align: center;
+            border-bottom: 1px solid gray;
+            margin: 0;
+            padding: 20px;
+        }
+        #grid ol{
+            border-right: 1px solid gray;
+            width:100px;
+            margin: 0;
+            padding: 20px;
+            padding-left: 32px;
+        }
+        #grid{
+            display:grid;
+            grid-template-columns: 150px 1fr;
+        }
+        #article{
+            padding-left: 25px;
+        }
+
+    </style>
 
 </head>
 <body>
     <h1><a href="index.html">Agent</a></h1>
 
-    <ol>
-        <li><a href="1.html">Clove</a></li>
-        <li><a href="2.html">Sova</a></li>
-        <li><a href="3.html">Omen</a></li>
-    </ol>
-
-    <h2>Sova</h2>
-    <img src="sova.jpg" width="20%">
-    <h3>1. information</h3>
-    <p>A scout of Valorant with the concept of a hunter , and one of the first 10 agents. Using recon arrows and drones, this agent can accurately identify enemy locations , and can use his ultimate and shock arrows to unilaterally suppress and kill enemies without revealing himself.</p>
-    <h3>2. skill</h3>
-    <h4>C : Owl Drone</h4>
-    <p>Equip the Owl Drone. Fire to fly the drone and control it. While controlling the drone, press fire to fire a marking dart. Players hit by the dart will have their location revealed.</p>
+    <div id="grid">
+        <ol>
+            <li><a href="1.html" >Clove</a></li>
+            <li><a href="2.html">Sova</a></li>
+            <li><a href="3.html">Omen</a></li>
+        </ol>
     
-    <h4>Q : Shock Bolt</h4>
-    <p>Equip a bow that fires shock arrows. When fired, the arrows fly forward, exploding on impact and damaging nearby players. Holding down fire increases the range of the arrows. The secondary attack causes the arrows to bounce up to two more times.</p>
-    
-    <h4>E : Recon Bolt</h4>
-    <p>Equip a bow that fires scout arrows. When fired, the scout arrows fly forward, revealing the locations of nearby enemies based on where the arrow lands. Enemies can destroy these arrows. Holding down fire increases the range of the arrows. The arrows bounce up to two more times when using secondary attacks.</p>
-    
-    <h4>X : Hunter's Fury</h4>
-    <p>Equip a bow that fires 3 long-range energy blasts that penetrate walls. When fired, the energy blasts in a straight line in front of you, damaging enemies it hits and revealing their location. Can be reused up to two more times while the skill duration is active.</p>
-    
-    <p>these informations are made with <a href="https://namu.wiki/w/%EC%86%8C%EB%B0%94(%EB%B0%9C%EB%A1%9C%EB%9E%80%ED%8A%B8)" target="_blank", title="sova namuwiki">namuwiki</a></p>
-    <script src="app.js"></script>
+        <div id="article">
+            <h2>Sova</h2>
+            <img src="sova.jpg" width="20%">
+            <h3>1. information</h3>
+            <p>A scout of Valorant with the concept of a hunter , and one of the first 10 agents. Using recon arrows and drones, this agent can accurately identify enemy locations , and can use his ultimate and shock arrows to unilaterally suppress and kill enemies without revealing himself.</p>
+            <h3>2. skill</h3>
+            <h4>C : Owl Drone</h4>
+            <p>Equip the Owl Drone. Fire to fly the drone and control it. While controlling the drone, press fire to fire a marking dart. Players hit by the dart will have their location revealed.</p>
+        
+            <h4>Q : Shock Bolt</h4>
+            <p>Equip a bow that fires shock arrows. When fired, the arrows fly forward, exploding on impact and damaging nearby players. Holding down fire increases the range of the arrows. The secondary attack causes the arrows to bounce up to two more times.</p>
+        
+            <h4>E : Recon Bolt</h4>
+            <p>Equip a bow that fires scout arrows. When fired, the scout arrows fly forward, revealing the locations of nearby enemies based on where the arrow lands. Enemies can destroy these arrows. Holding down fire increases the range of the arrows. The arrows bounce up to two more times when using secondary attacks.</p>
+        
+            <h4>X : Hunter's Fury</h4>
+            <p>Equip a bow that fires 3 long-range energy blasts that penetrate walls. When fired, the energy blasts in a straight line in front of you, damaging enemies it hits and revealing their location. Can be reused up to two more times while the skill duration is active.</p>
+        
+            <p>these informations are made with <a href="https://namu.wiki/w/%EC%86%8C%EB%B0%94(%EB%B0%9C%EB%A1%9C%EB%9E%80%ED%8A%B8)" target="_blank", title="sova namuwiki">namuwiki</a></p>
+            <script src="app.js"></script>
+        </div>
+    </div>
 </body>
 </html>
